@@ -11,12 +11,18 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { GalleryComponent } from './pages/gallery/gallery.component';
+import { ProfileComponent } from './pages/profile/profile.component';
+import { ContactComponent } from './pages/contact/contact.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    GalleryComponent
+    GalleryComponent,
+    ProfileComponent,
+    ContactComponent
+
   ],
   imports: [
     BrowserModule,
