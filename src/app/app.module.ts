@@ -10,21 +10,19 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatGridListModule } from '@angular/material/grid-list';
-<<<<<<< HEAD
+import { GalleryComponent } from './pages/gallery/gallery.component';
 import { ProfileComponent } from './pages/profile/profile.component';
-=======
 import { ContactComponent } from './pages/contact/contact.component';
->>>>>>> develop
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-<<<<<<< HEAD
-    ProfileComponent
-=======
+    GalleryComponent,
+    ProfileComponent,
     ContactComponent
->>>>>>> develop
+
   ],
   imports: [
     BrowserModule,
